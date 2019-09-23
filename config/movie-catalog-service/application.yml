@@ -1,0 +1,14 @@
+server.port: 8090
+   
+spring:
+   application:
+      name: movie-catalog-service
+      
+my.property: Shata
+      
+management:
+   endpoints:
+      web:
+         exposure:
+            include: hystrix.stream
+
